@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="YokoKitchen" content="Okonomiyaki">
+    <title>Yoko Kitchen</title>
+    <style>
+
+        /* Global */
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+
+        /* article, aside, a */
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+        }
+
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;
+        }
+
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #de6581;
+        }
+
+        a {
+            color: #de6581;
+            text-decoration: none;
+        }
+
+        /* body */
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url(images/dark-wood.jpg);
+            background-position: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+            margin: 0px;
+        }
+
+        /* figure, figcaption, footer */
+        figure {
+            float: left;
+            width: 380px;
+            height: 250px;
+            padding: 5px;
+            margin: 20px;
+            border: 2px solid #eeeeee;
+        }
+
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+
+        /* header, hgroup, h1, h2, h3, h4 */
+        header {
+            height: 160px;
+            background-image: url("images/header.jpg");
+        }
+
+        hgroup {
+            margin-top: 40px;
+        }
+
+        h1, h2, h3, h4 {
+            font-weight: normal;
+        }
+        
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+        }
+
+        h2 {
+            color: #de6581;
+            margin: 10px 0px 5px 0px;
+        }
+
+        h3 {
+            margin: 0px 0px 10px 0px;
+        }
+
+        h4 {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        /* nav, nav ul, nav li */
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a, nav li a.current{
+            color: #ffffff;
+        }
+
+        nav li a:hover {
+            background-color: #8d8d8d;
+            border: 2px solid rgb(126, 126, 126);
+        }
+
+        /* section */
+        section.dish {
+            margin-right: 80px;
+        }
+    
+        /* wrapper */
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }       
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Yoko's Kitchen</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Classes.html">Classes</a></li>
+                    <li><a href="Catering.html">Catering</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="dish">
+            <article>
+                <figure>
+                    <img src="images/Okonomiyaki.jpg" alt="Okonomiyaki (savory pancakes)" title="Okonomiyaki"/>
+                    <figcaption>Okonomiyaki (savory pancakes)</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Okonomiyaki</h2>
+                    <h3>Eastern savory pancakes</h3>
+                </hgroup>
+                <p>
+                    Okonomiyaki is a delicious savory Japanese treat served in a pancake shape.
+                    This dish includes a variety of toppings with sweet and creamy sauces. 
+                    Its name translates to what you want grilled, which is appropriate as you can
+                    choose your toppings whenever ordering okonomiyaki. The typical okonomiyaki
+                    ingredients include a batter and shredded cabbage, though the remaining ingredients
+                    vary greatly and include options like octopus, kimchi, pork and et cetera.
+                </p>
+                <h4><b>Receipt:</b><br />
+                    <li>Tempura mix - 30 gr</li>
+                    <li>Dashi powder - 1 tsp</li>
+                    <li>Wheat flour - 160 gr</li>
+                    <li>Salt - 0.25 tsp</li>
+                    <li>Sugar - 0.25 tsp</li>
+                    <li>White cabbage - 480 gr</li>
+                    <li>Green onion - 40 gr</li>
+                    <li>Pork belly - 160 gr</li>
+                    <li>Pickled ginger - 10 gr</li>
+                    <li>Okonomiyaki sauce - to your taste</li>
+                    <li>Japanese mayonnaise - to your taste</li>
+                    <li>Tuna flakes - to your taste</li>
+                    <li>Chicken egg - 4 units</li>
+                    <li>Water - 240 ml</li>
+                    <li>Vegetable oil - 520 ml</li>
+                    <br />To make the tenkasa (Crispy bits of deep-fried flour dough used in 
+                    Japanese cooking), mix the tempura flour with 40 millilitres of 
+                    cold water until smooth. Heat the vegetable oil in a small saucepan and 
+                    pour the tempura into it in small drops. Cook for a minute or two, then 
+                    scoop out the fried batter and place on paper towels to get rid of any 
+                    excess fat.
+                    Dilute the dashi powder in 200 millilitres of water. Mix the flour, salt 
+                    and sugar in a large bowl, pour in the dashi broth, add the eggs and knead 
+                    the dough. Add finely chopped cabbage, spring onions, chopped pickled ginger 
+                    and the tenkasu balls from step 1 to the dough. Mix well. Heat a frying pan well,
+                    place a quarter of the prepared mixture in it, shape the mixture into a round 
+                    pancake about 2 cm thick. Place pork slices on the pancake and fry over a medium
+                    heat until the okonomiyaki thickens. Then flip the okonomiyaki gently with a wide 
+                    spatula and cover the pan with a lid. Cook for another 5-7 minutes. Brush the 
+                    finished okonomiyaki with okonomiyaki sauce, mash with Japanese mayonnaise and 
+                    sprinkle the tuna shavings over the top. Bon appetit!</h4>
+            </article>
+            </section>
+        </aside>
+        <footer>
+            &COPY; 2023 Yoko's Kitchen
+        </footer>
+    </div>
+</body>
+</html>

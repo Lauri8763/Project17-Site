@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="YokoKitchen" content="Contact">
+    <title>Yoko Kitchen</title>
+    <style>
+
+        /* Global */
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+
+        /* article, aside, a */
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+
+        aside {
+            width: 400px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        /* body */
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url(images/dark-wood.jpg);
+            background-position: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+            margin: 0px;
+        }
+
+        /* footer */
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+
+        /* header, h1, h2*/
+        header {
+            height: 160px;
+            background-image: url("images/header.jpg");
+        }
+        
+        h1, h2 {
+            font-weight: normal;
+        }
+        
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+        }
+
+        h2 {
+            color: #de6581;
+            margin: 10px 0px 0px 0px;
+            padding:  20px 0px 10px 0px;
+        }
+
+        /* nav, nav ul, nav li */
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a, nav li a.current{
+            color: #ffffff;
+        }
+
+        nav li a:hover {
+            background-color: #8d8d8d;
+            border: 2px solid rgb(126, 126, 126);
+        }
+        
+        /* wrapper */
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }       
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Yoko's Kitchen</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Classes.html">Classes</a></li>
+                    <li><a href="Catering.html">Catering</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <section class="contact-details">
+                <h2>Yoko's Kitchen information</h2>
+                <p><b>Contact information:</b><br />
+                    Mobile number: +372 2174 9820<br />
+                    Our Email: YokoKitchen666@gmail.com
+                </p>
+            </section>
+            <section class="yoko-location">
+                <p><b>Our location:</b><br />
+                    Name: Yoko's Kitchen<br />
+                    Street: Assaku Street<br />
+                    District: Harjumaa<br />
+                    Town: Tallinn
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d130075.92082174469!2d24.930282701492654!3d59.37574703390001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692eba8d92e0bc7%3A0xa00b36f6fe4d360!2zQXNzYWt1LCA3NTMwMSDQpdCw0YDRjNGO0LzQsNCw!5e0!3m2!1sru!2see!4v1681126923023!5m2!1sru!2see" width="450" height="300" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </section>
+            <section class="working-time">
+                <p><b>Working time:</b><br />
+                    Mon-Fri: 9:00-21:00<br />
+                    Sun: 11:00-18:30<br />
+                    Sat: Closed
+                </p>
+            </section>
+        </aside>
+        <footer>
+            &COPY; 2023 Yoko's Kitchen
+        </footer>
+    </div>
+</body>
+</html>
